@@ -99,7 +99,7 @@
   background: url("../img/npd_cover2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: cover; 
 }
 
 .masthead h1 {
