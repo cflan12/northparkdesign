@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>North Park Design | Work</title>
+    <title>North Park Designs | Work</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,6 @@
     <!-- Custom styles for this template -->
     <!--<link href="css/grayscale.min.css" rel="stylesheet">-->
     <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
 
   </head>
 
@@ -30,20 +29,20 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html">North Park Design</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php">North Park Designs</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="work.html">Work</a>
+              <a class="nav-link js-scroll-trigger" href="work.php">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="services.html">Services</a>
+              <a class="nav-link js-scroll-trigger" href="services.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
             </li>
           </ul>
         </div>
@@ -156,19 +155,21 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <h2 class="text-white mb-5">Join The <br>North Park Design<br> Newsletter</h2>
+            <h2 class="text-white mb-5">Join<br>North Park Designs<br>Newsletter</h2>
 
-            <form class="form-inline d-flex">
-              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter Email Address" style="color: #FFFFFF;">
+            <div id="newsletter-message" class=""></div>
+
+            <form id="newsletter" action="mail/newsletter/newsletter.php" method="POST" class="form-inline d-flex">
+              <input type="email" name="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter Email Address" style="color: #FFFFFF;">
               <button type="submit" class="btn btn-primary mx-auto" style="background-color: #1A1A1A; color: #6C757D">Subscribe</button>
             </form>
 
             <hr>
               <div class="social d-flex justify-content-center">
-                <a href="https://www.instagram.com" class="mx-2">
+                <a href="https://www.instagram.com/northparkdesigns/" class="mx-2">
                   <i class="fab fa-instagram fa-2x"></i>
                 </a>
-                <a href="https://www.facebook.com" class="mx-2">
+                <a href="https://www.facebook.com/NorthParkDesigns/" class="mx-2">
                   <i class="fab fa-facebook-f fa-2x"></i>
                 </a>
                 <a href="https://www.linkedin.com" class="mx-2">
@@ -184,9 +185,20 @@
     <!-- Footer -->
     <footer class="bg-black small text-center text-white-50">
       <div class="container">
-        <p>&copy; 2018 North Park Design. All Rights Reserved.</p>
+        <p>&copy; <?php echo date('Y'); ?> North Park Designs. All Rights Reserved.</p>
       </div>
     </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128959809-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128959809-1');
+    </script>
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -197,6 +209,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+    <script src="mail/newsletter/newsletter.js"></script>
 
   </body>
 

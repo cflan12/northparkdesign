@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>North Park Design</title>
+    <title>North Park Designs | A Creative Digital Agency</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,6 @@
     <!--<link href="css/grayscale.min.css" rel="stylesheet">-->
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/three-image.css" rel="stylesheet">
 
   </head>
 
@@ -31,20 +30,20 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html">North Park Design</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php">North Park Designs</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="work.html">Work</a>
+              <a class="nav-link js-scroll-trigger" href="work.php">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="services.html">Services</a>
+              <a class="nav-link js-scroll-trigger" href="services.php">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="contact.php">Contact</a>
             </li>
           </ul>
         </div>
@@ -53,14 +52,10 @@
     
  
     <!-- Header -->
-    <!-- <div id="three-container"> 
-     <div id="instructions"> -->
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
-
-       
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">North Park Design</h1>
+          <h1 class="mx-auto my-0 text-uppercase">North Park Designs</h1>
           <h2 class="text-white-50 mx-auto mt-2 mb-5">Look At Usual Things With Unusual Eyes.</h2>
        </div>
     </div>
@@ -68,6 +63,17 @@
   
     </div>
   </div>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128959809-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128959809-1');
+  </script>
+
 
 
     <!-- Bootstrap core JavaScript -->
@@ -79,7 +85,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
-    <script src="js/three-image-transition.js"></script>
 
   </body>
 
