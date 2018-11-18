@@ -62,10 +62,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <p>At North Park Design, we pride ourselves on setting our minds free to unleash our creativity.
-             We focus on building meaningful relationships with clients, artists, local businesses, and every individual
-             we interact with. We seek inspiration in the profound and in the everyday and we go above and beyond with this
-           philosophy to create inspiring and transcendent design &amp; development for our clients.</p>
+            <p class="featured-text">At North Park Design, setting our minds free to unleash our creativity is a natural process. We build real relationships with real people - those that are artists, local businesses, tradespeople. People looking to create their own dream. We seek out inspiration in the everyday and go above and beyond with this philosophy to create transcendent design &amp; development for our clients.</p>
           </div>
         </div>
       </div>
@@ -77,76 +74,44 @@
 
         <!-- Featured Project Row -->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/portfolio/cards.jpg" alt="">
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
+          <div class="col-xl-12 col-lg-12">
+            <div class="featured-text text-center">
               <h2>Business Cards</h2>
+              <img class="img-fluid mb-3 mb-lg-0" src="img/portfolio/gigabites.jpg" alt="">
             </div>
           </div>
         </div>
 
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/portfolio/gigabites2.png" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h2 class="text-white">Gigabites</h2>
-                </div>
-              </div>
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-12 col-lg-12">
+            <div class="featured-text text-center">
+              <h2>Business Cards</h2>
+              <img class="img-fluid mb-3 mb-lg-0" src="img/portfolio/cards.jpg" alt="">
             </div>
           </div>
         </div>
 
-        <!-- Project Two Row -->
-        <div class="row justify-content-center no-gutters">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/portfolio/magazine.png" alt="">
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h2 class="text-white">Magazine</h2>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Project One Row -->
-        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-          <div class="col-lg-6">
-            <img class="img-fluid" src="img/portfolio/weddingbrochure2.png" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h2 class="text-white">Brochure</h2>
-                </div>
-              </div>
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-12 col-lg-12">
+            <div class="featured-text text-center">
+              <h2>Business Cards</h2>
+              <img class="img-fluid mb-3 mb-lg-0" src="img/portfolio/magazine.png" alt="">
             </div>
           </div>
         </div>
 
-      </div>
-    </section>
-
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Ready To Get started?</h2>
-              <a href="contact.html" class="btn btn-primary js-scroll-trigger">Let's Talk</a>
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-12 col-lg-12">
+            <div class="featured-text text-center">
+              <h2>Business Cards</h2>
+              <img class="img-fluid mb-3 mb-lg-0" src="img/portfolio/weddingbrochure2.png" alt="">
+            </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -190,14 +155,15 @@
     </footer>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128959809-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129182498-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag('config', 'UA-128959809-1');
-    </script>
+  gtag('config', 'UA-129182498-1');
+</script>
+
 
 
     <!-- Bootstrap core JavaScript -->

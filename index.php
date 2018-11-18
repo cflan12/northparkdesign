@@ -55,8 +55,9 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-          <h1 class="mx-auto my-0 text-uppercase">North Park Designs</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">Look At Usual Things With Unusual Eyes.</h2>
+          <!-- <h1 class="mx-auto my-0 text-uppercase">North Park Designs</h1> -->
+          <img class="img-fluid mx-auto d-block" src="img/northparkdesigns_cover.png" alt="" />
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Look At Usual Things With Unusual Eyes</h2>
        </div>
     </div>
     </header> 
@@ -65,14 +66,15 @@
   </div>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128959809-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129182498-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-128959809-1');
-  </script>
+  gtag('config', 'UA-129182498-1');
+</script>
+
 
 
 

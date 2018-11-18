@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>North Park Designs | Services</title>
+    <title>North Park Designs | Upload</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.php">North Park Design</a>
+        <a class="navbar-brand js-scroll-trigger" href="index.php">North Park Designs</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
@@ -53,68 +53,48 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
-            <h1 class="text-uppercase">Make it simple, but significant.</h1>
+          <h1 class="text-uppercase">Upload</h1>
         </div>
       </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
+    <!-- Contact Section -->
+    <section id="signup" class="signup-section" style="background-color:#F8F8F8;">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>A Crafted Service To Meet Your Design Needs.</h2>
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <div id="form-messages" class=""></div>
+
+            <form id="uploadForm" action="#" enctype="multipart/form-data" method="POST">
+
+              <div class="form-group">
+                <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="name" name="name" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="file" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="file" name="file" placeholder="Upload">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="project" name="project" placeholder="Project Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="phone" name="phone" placeholder="Phone Number" required>
+              </div>
+              <div class="form-group">
+                <textarea rows="5" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="message" name="message" placeholder="Message" required></textarea>
+              </div>
+                <button type="submit" class="btn btn-primary mx-auto">Submit</button>
+
+            </form>
+
           </div>
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section_odd text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Logo | Branding | Identity</h2>
-              <p>About</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Graphic Design</h2>
-              <p>About</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Web &amp; Mobile<br>Development</h2>
-              <p>About</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Ready To Get Started?</h2>
-              <a href="contact.php" class="btn btn-primary js-scroll-trigger">Let's Talk</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Signup Section -->
     <section id="signup" class="signup-section">
@@ -146,16 +126,9 @@
           </div>
         </div>
       </div>
-    </section> 
+    </section>
 
-    <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        <p>&copy; <?php echo date('Y'); ?> North Park Designs. All Rights Reserved.</p>
-      </div>
-    </footer>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129182498-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -167,6 +140,13 @@
 
 
 
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        <p>&copy; <?php echo date('Y'); ?> North Park Designs. All Rights Reserved.</p>
+      </div>
+    </footer>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -175,7 +155,8 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/grayscale.js"></script>
+    <script src="mail/upload/upload.js"></script>
     <script src="mail/newsletter/newsletter.js"></script>
 
   </body>
